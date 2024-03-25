@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <h1>Cinema</h1>
+      <h1>Les films disponibles :</h1>
       <ul>
         {data.map((movie) => (
           <li key={movie.id}>{movie.title}</li>
